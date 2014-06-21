@@ -8,7 +8,7 @@ cookbook 'rackspace_cloudbackup', git: 'git@github.com:rackspace-cookbooks/racks
 cookbook 'rackops_rolebook', git: 'git@github.com:rackops/rackops_rolebook.git'
 cookbook 'tomcat', git: 'https://github.com/opscode-cookbooks/tomcat.git', tag: 'v0.15.12'
 cookbook 'cron', git: 'git@github.com:rackspace-cookbooks/cron.git'
-cookbook 'mysql-multi', git: 'git@github.com:cybermerc/mysql-multi.git'
+cookbook 'mysql-multi', git: 'git@github.com:rackspace-cookbooks/mysql-multi.git'
 
 group :integration do
   cookbook 'tomstack_test_elasticsearch', path: 'test/fixtures/cookbooks/tomstack_test_elasticsearch'
