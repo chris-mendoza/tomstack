@@ -17,7 +17,8 @@ group :integration do
 
   cookbook 'apt'
   cookbook 'yum'
-
+  cookbook 'curl'
+  
   cookbook 'rackspace_gluster', git: 'git@github.com:rackspace-cookbooks/rackspace_gluster.git'
 end
 
